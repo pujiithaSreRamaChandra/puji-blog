@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Poor+Story&display=swap');
+*{
+  font-family: 'Farsan';
+  color: black;
+  margin:0;
+}
+.Navbar{
+  display: flex;
+  max-width: 1000px;
+  align-items: center;
+  margin:0 auto;
+  border-bottom:3px solid rgb(49, 42, 42);
+  padding: 16px;
+}
+.links{
+  margin-left:auto;
+}
+.Navbar h1{
+  color : rgb(216, 123, 138);
+}
+.Navbar a{
+  text-decoration: none;
+  padding: 6px;
+  margin-left:16px;
+}
+.Navbar a:hover{
+  color:rgb(92, 184, 223);
+  font-weight: bold;
+}
+.content{
+  max-width: 1000px;
+  margin:40px auto;
+}
+.blog-preview{
+  padding: 16px;
+  margin:25px;
+  border-radius: 8px;
+}
+.blog-preview:hover{
+  box-shadow:1px 3px 5px rgb(172, 172, 172);
+}
+#l-emoji{
+  color: pink;
+}
+.error-message{
+  color:rgb(255, 0, 0);
+}
+#create{
+  color :white;
+  background-color : #D87B8A;
+  border-radius : "8px"
+}
+.blog-preview a{
+  text-decoration: none;
+}
+.Actual-blog h1{
+ color: #D87B8A;
+}
+.create {
+  display: flex;
+  flex-direction: column;
+  max-width:600px;
+  margin: auto;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.form label{
+  color:#D87B8A;
+  font-size: 25px;
+  margin:10px
+}
+.form input,textarea,select{
+  border-radius: 8px;
+  box-shadow:2px 2px 2px 2px  grey;
+  border : none;
+  height: 45px;
+}
+.form textarea{
+  height: 95px;
+}
+.form :placeholder-shown{
+  color: #D87B8A;
+}
+.create h1{
+  text-align: center;
+  color: #e794a3;
+}
+.add-blog-btn{
+  background-color: #e794a3;
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 1px grey;
+  border-radius: 5px;
+  margin:20px auto;
+  padding: 8px;
+}
+.delete-blog{
+  background-color: #e794a3;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+.Not-found h1{
+  color :#e794a3;
+}
+.Not-found a{
+  text-decoration: none;
+} 
